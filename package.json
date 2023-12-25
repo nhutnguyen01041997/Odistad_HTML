@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss2",
+  "version": "1.0.0",
+  "description": "Odistad",
+  "main": "tailwind.config-full.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch ",
+    "start:dev": "live-server",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "prettier": "3.1.1",
+    "husky": "^8.0.0"
+  }
+}
