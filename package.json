@@ -4,8 +4,8 @@
   "description": "Odistad",
   "main": "tailwind.config-full.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch ",
-    "start:dev": "live-server",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch ",
+    "start": "start",
     "prepare": "husky install"
   },
   "keywords": [],
