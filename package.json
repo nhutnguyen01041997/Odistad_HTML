@@ -4,9 +4,14 @@
   "description": "Odistad",
   "main": "tailwind.config-full.js",
   "scripts": {
+<<<<<<< HEAD
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch ",
     "dev": "next dev -p ${PORT-8081}",
     "start:dev": "start",
+=======
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch ",
+    "start": "start",
+>>>>>>> 563ec76e87a1491b5851c52d5453dc556b5ce15e
     "prepare": "husky install"
   },
   "keywords": [],
