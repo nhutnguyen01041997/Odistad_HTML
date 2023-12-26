@@ -5,7 +5,8 @@
   "main": "tailwind.config-full.js",
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch ",
-    "start:dev": "live-server",
+    "dev": "next dev -p ${PORT-8081}",
+    "start:dev": "start",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -16,7 +17,7 @@
     "tailwindcss": "^3.4.0"
   },
   "devDependencies": {
-    "prettier": "3.1.1",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "prettier": "3.1.1"
   }
 }
