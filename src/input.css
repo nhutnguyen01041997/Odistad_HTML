@@ -10,14 +10,9 @@
     @apply bg-[#084278];
 }
 
-.item-top {
-   @apply h-auto w-full flex gap-10 justify-evenly items-center py-10; 
+.text-8xl {
+    @apply text-[98px];
 }
-
-.item-mid {
-    @apply w-1/4 flex flex-col items-center text-center;
-}
-
 @layer base {
     h1 {
         @apply text-[64px];
@@ -26,7 +21,7 @@
       @apply text-[46px] font-bold;
     }
     h3 {
-        @apply text-[36px] font-semibold;
+        @apply text-[36px] font-bold;
     }
     h4 {
         @apply text-[26px] font-bold;
@@ -37,4 +32,5 @@
     h6 {
         @apply text-[18px];
     }
+    
 }
