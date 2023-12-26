@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-primary {
+    @apply text-[#084278] text-xl;
+}
+
+.bg-primary {
+    @apply bg-[#084278];
+}
+
+.item-top {
+   @apply h-auto w-full flex gap-10 justify-evenly items-center py-10; 
+}
+
+.item-mid {
+    @apply w-1/4 flex flex-col items-center text-center;
+}
+
+@layer base {
+    h1 {
+        @apply text-[64px];
+    }
+    h2 {
+      @apply text-[46px] font-bold;
+    }
+    h3 {
+        @apply text-[36px] font-semibold;
+    }
+    h4 {
+        @apply text-[26px] font-bold;
+    }
+    h5 {
+        @apply text-[20px];
+    }
+    h6 {
+        @apply text-[18px];
+    }
+}
